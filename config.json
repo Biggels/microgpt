@@ -1,0 +1,16 @@
+{
+  "beta1": 0.85,
+  "beta2": 0.99,
+  "block_size": 16,
+  "dataset_path": "inputs/phrases.txt",
+  "eps_adam": 1e-08,
+  "learning_rate": 0.01,
+  "log_every": 10,
+  "n_embd": 16,
+  "n_head": 4,
+  "n_layer": 1,
+  "num_samples": 100,
+  "num_steps": 1000,
+  "seed": 42,
+  "temperature": 0.5
+}
