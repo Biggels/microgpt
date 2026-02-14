@@ -246,7 +246,7 @@ for step in range(num_steps):
 # Inference: may the model babble back to us
 temperature = 0.5  # in (0, 1], control the "creativity" of generated text, low to high
 print("\n--- inference (new, hallucinated names) ---")
-for sample_idx in range(20):
+for sample_idx in range(100):
     keys, values = [[] for _ in range(n_layer)], [[] for _ in range(n_layer)]
     token_id = BOS
     sample = []
