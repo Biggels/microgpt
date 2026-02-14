@@ -13,7 +13,7 @@ from typing import Any, Dict
 @dataclass
 class TrainConfig:
     # Data
-    dataset_path: str = "inputs/input.txt"
+    dataset_path: str = "inputs/phrases.txt"
     seed: int = 42
 
     # Model
